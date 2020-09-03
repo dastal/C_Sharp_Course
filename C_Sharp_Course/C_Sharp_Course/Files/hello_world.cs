@@ -10,7 +10,9 @@ namespace C_Sharp_Course
     {
         static void HelloWorld(string[] args)
         {
-            
+            Console.WriteLine("Hello Wolrd!");
+
+            Console.ReadLine();
         }
     }
 }
