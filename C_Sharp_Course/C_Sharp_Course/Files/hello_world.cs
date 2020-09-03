@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_Sharp_Course
+namespace Hello_World
 {
-    class HelloWorld
+    class C_Sharp_Course
     {
-        static void Main(string[] args)
+        static void HelloWorld(string[] args)
         {
             Console.WriteLine("Hello World!");
 
