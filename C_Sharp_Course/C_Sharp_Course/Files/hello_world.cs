@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hello_World
+namespace C_Sharp_Course
 {
-    class C_Sharp_Course
+    class Hello
     {
         static void HelloWorld(string[] args)
         {
