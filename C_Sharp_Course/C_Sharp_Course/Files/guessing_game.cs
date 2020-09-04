@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_Course
 {
-    class Program
+    class GussingGame
     {
-        static void Main(string[] args)
+        static void Guess(string[] args)
         {
             string secretWord = "Course";
             string guess = "";
