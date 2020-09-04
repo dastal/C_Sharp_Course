@@ -1,4 +1,5 @@
-﻿using System;
+﻿using C_Sharp_Course.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -11,15 +12,18 @@ namespace C_Sharp_Course
     {
         static void Main(string[] args)
         {
-            int[,] numberGrid =
-            {
-                { 1, 2 },
-                { 3, 4 },
-                { 5, 6 },
-            };
+            Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");
+            Movie shrek = new Movie("The Shrek", "Adma Adamson", "PG");
 
-            Console.WriteLine(numberGrid[0, 0]);
-            Console.WriteLine(numberGrid[1, 1]);
+            Console.WriteLine(avengers.Rating);
+
+            shrek.Rating = "Cat";
+
+            Console.WriteLine(shrek.Rating);
+
+            shrek.Rating = "R";
+
+            Console.WriteLine(shrek.Rating);
 
             Console.WriteLine();
 

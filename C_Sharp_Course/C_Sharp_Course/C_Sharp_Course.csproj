@@ -43,16 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Files\2d_arrays.cs" />
+    <Compile Include="Classes\Book.cs" />
+    <Compile Include="Classes\Movie.cs" />
+    <Compile Include="Classes\NextGenBook.cs" />
+    <Compile Include="Classes\Student.cs" />
     <Compile Include="Files\arrays.cs" />
     <Compile Include="Files\better_calculator.cs" />
+    <Compile Include="Files\classes_objects.cs" />
+    <Compile Include="Files\comments.cs" />
+    <Compile Include="Files\constructors.cs" />
+    <Compile Include="Files\exception_handling.cs" />
     <Compile Include="Files\exponent_method.cs" />
     <Compile Include="Files\for_loops.cs" />
+    <Compile Include="Files\getters_setters.cs" />
     <Compile Include="Files\guessing_game.cs" />
     <Compile Include="Files\if_statements_I.cs" />
     <Compile Include="Files\if_statements_II.cs" />
     <Compile Include="Files\mad_libs.cs" />
     <Compile Include="Files\methods.cs" />
+    <Compile Include="Files\object_methods.cs" />
     <Compile Include="Files\return_statements.cs" />
     <Compile Include="Files\simple_calculator.cs" />
     <Compile Include="Files\input.cs" />
@@ -69,6 +78,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Files\2d_arrays.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
