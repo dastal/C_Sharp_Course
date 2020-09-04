@@ -43,9 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Files\arrays.cs" />
+    <Compile Include="Files\better_calculator.cs" />
+    <Compile Include="Files\if_statements_I.cs" />
+    <Compile Include="Files\if_statements_II.cs" />
+    <Compile Include="Files\mad_libs.cs" />
+    <Compile Include="Files\methods.cs" />
+    <Compile Include="Files\return_statements.cs" />
+    <Compile Include="Files\simple_calculator.cs" />
+    <Compile Include="Files\input.cs" />
+    <Compile Include="Files\numbers.cs" />
+    <Compile Include="Files\strings.cs" />
+    <Compile Include="Files\data_types.cs" />
+    <Compile Include="Files\switch_statements.cs" />
     <Compile Include="Files\variables.cs" />
     <Compile Include="Files\hello_world.cs" />
     <Compile Include="Files\shape.cs" />
+    <Compile Include="Files\while_loops.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
