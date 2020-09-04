@@ -9,7 +9,7 @@ namespace C_Sharp_Course
 {
     class UsingExceptions
     {
-        static void Exceptionhanlding(string[] args)
+        static void ExceptionHandling(string[] args)
         {
             try
             {
