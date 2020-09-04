@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,25 +11,17 @@ namespace C_Sharp_Course
     {
         static void Main(string[] args)
         {
-            int index = 1;
-
-            while (index <= 5)
+            int[,] numberGrid =
             {
-                Console.WriteLine(index);
-                index++;
-            }
+                { 1, 2 },
+                { 3, 4 },
+                { 5, 6 },
+            };
+
+            Console.WriteLine(numberGrid[0, 0]);
+            Console.WriteLine(numberGrid[1, 1]);
 
             Console.WriteLine();
-
-            int index1 = 1;
-
-            do
-            {
-                Console.WriteLine(index1);
-                index1++;
-            } while (index1 <= 5);
-
-                Console.WriteLine();
 
             Console.ReadLine();
         }

@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Files\2d_arrays.cs" />
     <Compile Include="Files\arrays.cs" />
     <Compile Include="Files\better_calculator.cs" />
+    <Compile Include="Files\exponent_method.cs" />
+    <Compile Include="Files\for_loops.cs" />
+    <Compile Include="Files\guessing_game.cs" />
     <Compile Include="Files\if_statements_I.cs" />
     <Compile Include="Files\if_statements_II.cs" />
     <Compile Include="Files\mad_libs.cs" />
