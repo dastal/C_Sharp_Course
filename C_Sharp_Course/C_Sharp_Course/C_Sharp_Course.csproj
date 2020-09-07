@@ -44,12 +44,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Book.cs" />
+    <Compile Include="Classes\Chef.cs" />
+    <Compile Include="Classes\ItalianChef.cs" />
     <Compile Include="Classes\Movie.cs" />
     <Compile Include="Classes\NextGenBook.cs" />
+    <Compile Include="Classes\Song.cs" />
     <Compile Include="Classes\Student.cs" />
+    <Compile Include="Classes\UsefulTools.cs" />
     <Compile Include="Files\arrays.cs" />
     <Compile Include="Files\better_calculator.cs" />
     <Compile Include="Files\classes_objects.cs" />
+    <Compile Include="Files\inheritance.cs" />
+    <Compile Include="Files\static_methods_and_classes.cs" />
     <Compile Include="Files\comments.cs" />
     <Compile Include="Files\constructors.cs" />
     <Compile Include="Files\exception_handling.cs" />
@@ -66,6 +72,7 @@
     <Compile Include="Files\simple_calculator.cs" />
     <Compile Include="Files\input.cs" />
     <Compile Include="Files\numbers.cs" />
+    <Compile Include="Files\static_class_attributes.cs" />
     <Compile Include="Files\strings.cs" />
     <Compile Include="Files\data_types.cs" />
     <Compile Include="Files\switch_statements.cs" />
