@@ -3,16 +3,16 @@ Introductory C# Course (Tutorial)
 
 Tutorial I completed to get used to C# programming language and to continue my overview over the most important programming languages. Used tutorial: https://www.youtube.com/watch?v=GhQdlIFylQ8
 
-**Setup**
+## Setup
 - IDE: https://visualstudio.microsoft.com/de/vs/community/
 - include: .NET desktop development, then install, after installing, click the button "Launch", choose the theme and "Start Visual Studio"
 
-**Create a new Project**
+## Create a new Project
 - Open VS, create new Project, choose "Console App (.Net Framework) -> "Next" -> give the project a name, choose the target folder and hit "Create"
 - "Program.cs" appears -> the project is set up
 
 
-**Topics:** Files
+## Topics
 1. Hello World: hello_world.cs
 2. Drawing a simple Shape: shape.cs
 3. Vairables: variables.cs
